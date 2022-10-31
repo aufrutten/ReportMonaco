@@ -1,0 +1,12 @@
+.idea**
+.git
+.DS_Store**
+venv
+.coverage**
+__pycache__*
+htmlcov
+*.pyc
+.pytest_cache**
+
+tempText.txt
+test.txt
