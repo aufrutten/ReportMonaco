@@ -13,7 +13,7 @@ class FolderNotFoundError(Exception):
 
     def __str__(self):
         if self.message:
-            return 'FolderNotFound, {0} '.format(self.message)
+            return 'FolderNotFound, {0}'.format(self.message)
         else:
             return 'FolderNotFound has been raised'
 
@@ -73,6 +73,3 @@ def main() -> dict[str, Any]:
     if check_files_in_folder(path=cli_args.files):
         return cli_args.__dict__
 
-
-if __name__ == '__main__':
-    pass
